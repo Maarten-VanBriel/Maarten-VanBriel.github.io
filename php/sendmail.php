@@ -8,7 +8,7 @@ function sendmail() {
 
     $sent = mail('maarten.vanbriel@student.ucll.be', $subject, $message, $headers);
     echo $success=$sent;
-    header("Location: http://r0790938.iswlabs.be/contact.html");
+    header("Location: https://maarten-vanbriel.github.io/contact.html");
 }
 if (isset($_POST['submit'])) {
     sendmail();
